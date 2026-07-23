@@ -1,0 +1,33 @@
+:root {
+  --background: #0b0f17;
+  --surface: #121826;
+  --surface-light: #1b2233;
+
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --accent: #8b5cf6;
+
+  --text: #f8fafc;
+  --text-muted: #a6b0c3;
+  --text-soft: #7d889c;
+
+  --border: rgba(255, 255, 255, 0.08);
+
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  --glass: rgba(255, 255, 255, 0.03);
+
+  --shadow: rgba(99, 102, 241, 0.15);
+
+  --font-title: "Geist", sans-serif;
+  --font-body: "Inter";
+  --font-code: "JetBrains Mono", monospace;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --transition: all 0.35s ease;
+}
