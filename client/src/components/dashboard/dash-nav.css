@@ -38,7 +38,7 @@
   align-items: center;
   gap: 20px;
 }
-.logo {
+.logo-dash {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -49,11 +49,12 @@
   font-family: var(--font-title);
   letter-spacing: 1px;
 }
-.logo-icon {
+.logo-icon-dash {
   font-size: 3rem;
   color: var(--primary);
   transform: translateY(-2px);
   font-weight: 700;
+  margin-left: -25px;
 }
 
 .button-group {

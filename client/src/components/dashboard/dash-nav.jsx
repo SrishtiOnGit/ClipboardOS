@@ -18,8 +18,8 @@ const DashNav = () => {
   return (
     <div className={`navbar ${scrolled ? "scrolled" : ""}`} data-aos="fade-up">
       <div className="logo-container">
-        <h1 className="logo-icon">∞</h1>
-        <h1 className="logo">ClipboardOS</h1>
+        <h1 className="logo-icon-dash">∞</h1>
+        <h1 className="logo-dash">ClipboardOS</h1>
       </div>
       <div className="search">
         <input type="text" placeholder="Search" />

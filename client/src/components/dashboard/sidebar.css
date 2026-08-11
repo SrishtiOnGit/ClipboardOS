@@ -1,0 +1,42 @@
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  padding: 20px;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  box-sizing: border-box;
+  transition: width 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text);
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.sidebar button:hover {
+  background: var(--hero-accent);
+}
+
+.sidebar p {
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.sidebar.collapsed {
+  width: 70px;
+}
+
+.sidebar.collapsed p {
+  display: none;
+}
