@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./navbar.css";
 import { useEffect, useState } from "react";
 const Navbar = () => {
@@ -27,9 +26,7 @@ const Navbar = () => {
           <li className="nav-item">
             <a href="/features">Features</a>
           </li>
-          <li className="nav-item">
-            <a href="/pricing">Pricing</a>
-          </li>
+
           <li className="nav-item">
             <a href="/docs">Docs</a>
           </li>
